@@ -1,0 +1,53 @@
+languageCode = "en-us"
+title = "Potatso Manual"
+baseURL = "https://manual-beta.potatso.com/"
+theme = "hugo-material-docs"
+googleAnalytics = "UA-38012898-7"
+
+[params]
+	# General information
+	author = "Potatso"
+	description = "The ultimate networking tool for iOS."
+	copyright = "potatso.com"
+
+	version = "2.0.0"
+	logo = "images/logo.png"
+	favicon = "images/favicon.ico"
+
+	permalink = "#"
+
+    showFooterNav = true
+
+	[params.palette]
+    	primary = "pink"
+    	accent  = "teal"
+
+    [params.font]
+        text = "Roboto"
+        code = "Roboto Mono"
+
+# [[menu.main]]
+# 	name   = "Potatso"
+# 	url    = "/"
+# 	weight = 0
+
+[[menu.main]]
+	name   = "Getting started"
+	url    = "getting-started/"
+	weight = 10
+
+[[menu.main]]
+	name   = "PCF"
+	url    = "pcf/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Roadmap"
+	url    = "roadmap/"
+	weight = 30
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
