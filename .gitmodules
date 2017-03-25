@@ -1,0 +1,3 @@
+[submodule "themes/hugo-material-docs"]
+	path = themes/hugo-material-docs
+	url = git@github.com:Potatso/hugo-material-docs.git
