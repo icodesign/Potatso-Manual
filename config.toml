@@ -18,6 +18,10 @@ googleAnalytics = "UA-38012898-7"
 
     showFooterNav = true
 
+	custom_css = [
+		"css/custom.css"
+	]
+
 	[params.palette]
     	primary = "pink"
     	accent  = "teal"
@@ -32,22 +36,31 @@ googleAnalytics = "UA-38012898-7"
 # 	weight = 0
 
 [[menu.main]]
-	name   = "Getting started"
-	url    = "getting-started/"
+	name   = "开始使用"
+	url    = "get-started/"
 	weight = 10
+
+[[menu.main]]
+	name   = "高级"
+	url    = "advanced/"
+	weight = 20
 
 [[menu.main]]
 	name   = "PCF"
 	url    = "pcf/"
-	weight = 20
+	weight = 30
 
 [[menu.main]]
-	name   = "Roadmap"
+	name   = "路线图"
 	url    = "roadmap/"
-	weight = 30
+	weight = 40
 
 [blackfriday]
 	smartypants	= true
 	fractions = true
 	smartDashes = true
 	plainIDAnchors = true
+
+[social]
+  twitter = "PotatsoApp"
+  github  = "Potatso/Manual"
